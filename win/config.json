@@ -1,0 +1,23 @@
+
+{
+  "server": "31.186.86.47:2085",
+  "auth": "dd435a69-a2f4-11ef-93d3-3cecef19f66e",
+  "tls": {
+    "sni": "www.bing.com",
+    "insecure": true
+  },
+  "quic": {
+    "initStreamReceiveWindow": 16777216,
+    "maxStreamReceiveWindow": 16777216,
+    "initConnReceiveWindow": 33554432,
+    "maxConnReceiveWindow": 33554432
+  },
+  "socks5": {
+    "listen": "127.0.0.1:1080"
+  },
+  "transport": {
+    "udp": {
+      "hopInterval": "30s"
+    }
+  }
+}
